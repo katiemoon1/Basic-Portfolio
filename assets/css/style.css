@@ -3,10 +3,22 @@
     text-align: center;
 }
 
-header {
+body {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 32px;
+    color: #777777;
+    background-image: url("../images/leaves-pattern/leaves-pattern.png");
+}
+
+.navigation {
     background-color: #ffffff;
+    padding: 21px;
     border-bottom: solid 1px;
     border-color: #cccccc;
+    top: 0;
+    left: 0;
+    right: 0;
 }
 
 h1 {
@@ -15,5 +27,48 @@ h1 {
     background-color: #4aaaa5;
     position: fixed;
     padding: 40px;
+    margin: 0;
+    top: 0;
     text-align: center;
+}
+
+.about, .portfolio, .contact {
+    display: inline;
+    padding: 21px;
+    position: relative;
+}
+
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #4aaaa5;
+    text-align: left;
+    border-bottom: solid 1px;
+    border-color: #cccccc;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#main-bio {
+    background-color: #ffffff;
+    width: 918px;
+    margin: 0 auto 0 auto;
+    padding: 30px 20px 30px 20px;
+    border: solid 1px;
+    border-color: #dddddd;
+}
+
+img {
+    float: left;
+    margin-right: 20px;
+    margin-top: 15px;
+}
+
+p {
+    text-align: left;
 }
