@@ -12,30 +12,48 @@ body {
 }
 
 .navigation {
+    width: 100%;
     background-color: #ffffff;
-    padding: 21px;
-    border-bottom: solid 1px;
+    margin: 0 auto;
+    padding: 32px;
+    border-bottom: 1px solid;
     border-color: #cccccc;
-    top: 0;
-    left: 0;
-    right: 0;
+}
+
+header {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    background-color: #4aaaa5;
+    padding: 20px;
+    float: left;
 }
 
 h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: white;
-    background-color: #4aaaa5;
-    position: fixed;
-    padding: 40px;
-    margin: 0;
-    top: 0;
     text-align: center;
 }
 
-.about, .portfolio, .contact {
+.nav {
+    list-style-type: none;
+    padding: 5px 0 5px 0;
+    text-align: center;
+    line height: 32px;
+}
+
+ul {
+    margin-top: 15px;
+}
+
+li {
     display: inline;
-    padding: 21px;
-    position: relative;
+    padding: 0 10px 0 10px;
+}
+
+li a {
+    text-decoration: none;
+    color: #777777;
+    padding: 8px;
+    float: right;
 }
 
 h2 {
@@ -61,6 +79,7 @@ h2 {
     padding: 30px 20px 30px 20px;
     border: solid 1px;
     border-color: #dddddd;
+    float: clear;
 }
 
 img {
