@@ -9,6 +9,12 @@ body {
     line-height: 32px;
     color: #777777;
     background-image: url("../images/leaves-pattern/leaves-pattern.png");
+    height: 100%;
+}
+
+.wrapper {
+    min-height: 100%;
+    margin-bottom: -50px;
 }
 
 .navigation {
@@ -18,13 +24,16 @@ body {
     padding: 32px;
     border-bottom: 1px solid;
     border-color: #cccccc;
+    top: 0px;
+    left: 0px;
+    right: 0px;
 }
 
 header {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: white;
     background-color: #4aaaa5;
-    padding: 20px;
+    padding: 10px;
     float: left;
 }
 
@@ -37,7 +46,7 @@ h1 {
     list-style-type: none;
     padding: 5px 0 5px 0;
     text-align: center;
-    line height: 32px;
+    line-height: 32px;
 }
 
 ul {
@@ -56,6 +65,15 @@ li a {
     float: right;
 }
 
+#main-bio {
+    background-color: #ffffff;
+    width: 918px;
+    margin: 0 auto 0 auto;
+    padding: 30px 20px 30px 20px;
+    border: solid 1px;
+    border-color: #dddddd;
+}
+
 h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #4aaaa5;
@@ -72,16 +90,6 @@ h2 {
     clear: both;
 }
 
-#main-bio {
-    background-color: #ffffff;
-    width: 918px;
-    margin: 0 auto 0 auto;
-    padding: 30px 20px 30px 20px;
-    border: solid 1px;
-    border-color: #dddddd;
-    float: clear;
-}
-
 img {
     float: left;
     margin-right: 20px;
@@ -90,4 +98,12 @@ img {
 
 p {
     text-align: left;
+}
+
+footer, .push {
+    height: 55px;
+    background-color: #666666;
+    color: white;
+    border-top: solid 5px;
+    border-color: #4aaaa5;
 }
