@@ -100,10 +100,44 @@ p {
     text-align: left;
 }
 
+#contact {
+    background-color: #ffffff;
+    width: 918px;
+    margin: 0 auto 0 auto;
+    padding: 30px 20px 30px 20px;
+    border: solid 1px;
+    border-color: #dddddd;
+}
+
+form {
+    text-align: left;
+}
+
+#name, #email {
+    text-align: left;
+    width: 850px;
+    height: 35px;
+}
+
+#message {
+    text-align: left;
+    width: 850px;
+    height: 150px;
+}
+
+#submit {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: white;
+    font-size: 15px;
+    background-color: #4aaaa5;
+    padding: 10px;
+}
+
 footer, .push {
     height: 55px;
     background-color: #666666;
     color: white;
     border-top: solid 5px;
     border-color: #4aaaa5;
+    text-align: center;
 }
