@@ -3,7 +3,7 @@
 }
 
 body {
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-family: 'Alegreya Sans', sans-serif;
     font-size: 15px;
     line-height: 32px;
     color: #777777;
@@ -31,7 +31,7 @@ body {
 }
 
 .homelink {
-    font-family: 'Georgia', Times, serif;
+    font-family: 'Questrial', sans-serif;
     display: inline-block;
     float: left;
     background-color: #4aaaa5;
@@ -41,7 +41,6 @@ body {
     color: #ffffff;
     text-decoration: none;
     font-size: 30px;
-    font-weight: bold;
     position: absolute;
     bottom: 0;
 }
@@ -56,7 +55,7 @@ body {
 }
 
 h2 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Questrial', sans-serif;
     color: #4aaaa5;
     text-align: left;
     border-bottom: solid 1px;
