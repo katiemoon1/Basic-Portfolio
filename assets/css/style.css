@@ -80,13 +80,94 @@ p {
     text-align: left;
 }
 
+.box {
+    position: relative;
+    width: 918px;
+    height: 1000px;
+    margin: 0 auto 0 auto;
+}
+
 #portfolio {
     background-color: #ffffff;
-    width: 918px;
-    margin: 0 auto 0 auto;
+    height: 1000px;
     padding: 30px 20px 30px 20px;
     border: solid 1px;
     border-color: #dddddd;
+}
+
+.first {
+    position: absolute;
+    top: 103px;
+    left: 20px;
+}
+
+.first-text {
+    position: absolute;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    padding: 10px 88px 10px 87px;
+    top: 248px;
+    left: 20px;
+}
+
+.second {
+    position: absolute;
+    top: 318px;
+    left: 20px;
+}
+
+.second-text {
+    position: absolute;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    padding: 10px 71px 10px 87px;
+    top: 463px;
+    left: 20px;
+}
+
+.third {
+    position: absolute;
+    top: 533px;
+    left: 20px
+}
+
+.third-text {
+    position: absolute;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    padding: 10px 82px 10px 87px;
+    top: 678px;
+    left: 20px;
+}
+
+.fourth {
+    position: absolute;
+    top: 103px;
+    left: 237px;
+}
+
+.fourth-text {
+    position: absolute;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    padding: 10px 79px 10px 83px;
+    top: 247px;
+    left: 237px;
+}
+
+.fifth {
+    position: absolute;
+    top: 318px;
+    left: 237px
+}
+
+.fifth-text {
+    position: absolute;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    padding: 10px 86px 10px 87px;
+    top: 462px;
+    left: 237px;
 }
 
 #contact {
